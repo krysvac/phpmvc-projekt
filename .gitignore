@@ -1,0 +1,6 @@
+# composer
+/vendor/
+
+/app/config/config_mysql.php
+*.xml
+Makefile

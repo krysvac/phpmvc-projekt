@@ -1,0 +1,200 @@
+@import "article.less";
+@import "figure.less";
+
+/** --------------------------------------------------------------
+ *
+ * Layout sizes of main website
+ *
+ */
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+    .clearfix();
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#header, #navbar, #flash, #footer, #loginPanel, #full{
+    .column(@columns);
+    margin-bottom: @magicNumber;
+}
+
+#main {
+    .column(@columns / 3 * 2);
+    margin-bottom: @magicNumber;
+}
+
+#sidebar {
+    .column(@columns / 3);
+    margin-bottom: @magicNumber;
+}
+
+#featured-1, #featured-2, #featured-3, #triptych-1, #triptych-2, #triptych-3 {
+    .column(@columns / 3);
+    margin-bottom: @magicNumber;
+}
+
+#footer-col-1, #footer-col-2, #footer-col-3, #footer-col-4 {
+    .column(@columns / 4);
+    margin-bottom: @magicNumber;
+}
+
+#header {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.sitelogo {
+    width: 18%;
+}
+
+.sitetitle {
+    padding-left: 35px;
+    font-size: 48px;
+}
+
+.siteslogan {
+    display: block;
+    font-style: italic;
+    color: #666;
+}
+
+#main {
+    min-height: 20em;
+}
+
+#footer {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 22px;
+    display: block;
+    clear: both;
+}
+
+.sitefooter {
+    color: #666;
+}
+
+#wrap-featured, #wrap-maincontentsidebar, #wrap-triptych, #wrap-footer-col {
+    .clearfix();
+}
+
+#header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#header img {
+    height: 150px;
+    margin-top: 10px;
+    float: left;
+}
+
+fieldset, textarea {
+    width: 95%;
+}
+
+
+/** --------------------------------------------------------------
+ *
+ * The styling of the website
+ *
+ */
+
+body {
+    background-repeat: no-repeat;
+    background-color: #C7860E;
+    color: #333;
+    font-family: arial, sans-serif;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+input[type=text], input[type=number], input[type=password] {
+    border: 1px solid #A3A3A3;
+    padding-left: 5px;
+    line-height: 225%;
+    border-radius: 3px;
+    height: 35px;
+    width: 45%;
+}
+
+textarea {
+    border: 1px solid #A3A3A3;
+    padding-left: 5px;
+    border-radius: 3px;
+}
+
+.buttons input {
+    border: 3px solid #333;
+    color: #333;
+    background: 0 0;
+    width: 175px;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 2px;
+    font-size: 110%;
+}
+
+.buttons input:hover {
+    color: white;
+    background: #333;
+}
+
+.hoverEffect:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.italic {
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+
+th {
+    background: #202020;
+    color: #D4A15E;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+td, th {
+    padding: 5px;
+    text-align: left;
+}
+
+tr:hover {
+    background: #919191;
+}
+
+.aBtn {
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: #B7B7B7;
+    color: black;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+td .aBtn:hover, .aBtn:hover {
+    background: #5887C3;
+}
+
+.large {
+    font-size: 20px;
+}

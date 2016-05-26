@@ -1,0 +1,329 @@
+.question {
+    overflow: auto;
+    position: relative;
+}
+
+.question, .answer {
+    padding: 0.2em;
+}
+
+.question-title {
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.question .sidebar, .answer .sidebar {
+    overflow: auto;
+    width: 6%;
+    float: left;
+    font-size: 16px;
+}
+
+.question .sidebar p, .answer .sidebar p {
+    text-align: center;
+    margin: 0;
+}
+
+.question .sidebar p .fa, .answer .sidebar p .fa {
+    font-size: 22px;
+    margin: 0;
+}
+
+.question .sidebar .score, .answer .sidebar .score {
+    font-weight: 700;
+    font-size: 130%;
+}
+
+.question .sidebar p, .answer .sidebar p {
+    text-align: center;
+    margin: 0;
+}
+
+.question-content, .answer-content {
+    overflow: auto;
+    width: 91.5%;
+    float: right;
+    padding: 0.5em;
+}
+
+.tag {
+    background-color: #ffd171;
+    border-radius: 10px;
+    color: #4A4A4A;
+    font-size: 12px;
+    padding: 0.2em 0.9em;
+    text-decoration: none;
+}
+
+.question-info {
+    width: 225px;
+    font-size: 80%;
+    float: right;
+}
+
+.question-info img {
+    padding: 5px;
+    width: 42px;
+    float: left;
+}
+
+.question img, .answer img {
+    max-width: 100%;
+    display: block;
+}
+
+img {
+    border: 0;
+}
+
+.question-info .timestamp {
+    display: block;
+}
+
+.timestamp {
+    color: #595959;
+}
+
+.comment-form {
+    margin-top: 1em;
+}
+
+.answers-header {
+    padding: 0.75em;
+    background-color: #f0f0f0;
+    border-radius: 6px;
+}
+
+.answers-header .sorting-bar {
+    text-align: right;
+}
+
+.answer .accepted.no {
+    color: #f0f0f0;
+}
+
+.answer .accepted {
+    float: right;
+    font-size: 32px;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.tag:hover {
+    background-color: #e57100;
+    color: white;
+}
+
+.question .bottom-row, .answer .bottom-row {
+    overflow: auto;
+    width: 94%;
+}
+
+.comment {
+    font-size: 0.79em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 5em;
+}
+
+.comment p {
+    display: inline;
+}
+
+.answer {
+    overflow: auto;
+    position: relative;
+    margin: 2em 0;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.front-matter {
+    text-align: center;
+    font-weight: 400;
+    font-size: 130%;
+    margin: 2em 0;
+}
+
+.front-matter .fa {
+    font-size: 100px;
+}
+
+.banner {
+    background-color: #cb2e01;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+}
+
+.banner a {
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.question-list {
+    margin-bottom: 1em;
+    overflow: auto;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.question-list .sidebar {
+    text-align: center;
+    float: left;
+    width: 10%;
+}
+
+.question-list p {
+    margin-bottom: 0;
+}
+
+.question-list .sidebar .number {
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.question-list .sidebar .word {
+    font-size: 75%;
+}
+
+.question-list .main {
+    padding: 0.5em;
+    width: 86%;
+    float: left;
+}
+
+.question-list .title {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.question-list .tag-row {
+    margin: 1em 0;
+}
+
+.question-list .bottom-row {
+    text-align: right;
+    font-size: 90%;
+}
+
+.tag-overview {
+    text-align: left;
+    float: left;
+    margin: 0.5em;
+    padding: 0.3em;
+}
+
+.tag-overview .tag {
+    margin-right: 0.3em;
+}
+
+.tag-overview .description {
+    font-size: 90%;
+}
+
+.user-info {
+    width: 25%;
+    float: left;
+    margin: 0.5em;
+    padding: 0.3em;
+}
+
+.user-info a:hover {
+    color: black;
+}
+
+.user-info img {
+    width: 28%;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.user-info a {
+    color: #404040;
+}
+
+.user-info .name {
+    font-weight: 700;
+    font-size: 0.948em;
+}
+
+.user-info .location {
+    color: #595959;
+}
+
+.user-info p {
+    font-size: 0.79em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.user-info .reputation {
+    font-weight: 700;
+}
+
+.lists h4 {
+    padding: 0.5em 0.35em;
+}
+
+.background-red {
+    background-color: #D73000;
+    color: white;
+}
+
+ul {
+    margin-left: -8px;
+    list-style-type: disc;
+}
+
+ul, ol {
+    margin: 0 0 22px 0;
+    padding-left: 1.5em;
+}
+
+.lists li {
+    list-style: none;
+    padding-left: 2em;
+}
+
+.lists li a {
+    color: #404040;
+}
+
+.background-orange {
+    background-color: #FF7E00;
+    color: white;
+}
+
+.background-green {
+    background-color: #487200;
+    color: white;
+}
+
+.background-brown {
+    background-color: #952A00;
+    color: white;
+}
+
+.front-page-box {
+    font-size: 80%;
+}
+
+.front-page-box h3 {
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+.front-page-box a:hover {
+    text-decoration: underline;
+}
+
+.front-page-box a {
+    color: #404040;
+}

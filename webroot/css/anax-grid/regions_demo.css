@@ -1,0 +1,4 @@
+#featured-1, #featured-2, #featured-3, #flash, #footer-col-1, #footer-col-2, #footer-col-3, #footer-col-4, #main, #sidebar, #triptych-1, #triptych-2, #triptych-3 {
+    background-color: #ccc;
+    min-height: 5em
+}
