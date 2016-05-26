@@ -4,7 +4,7 @@ Detta repo är mitt slutprojekt i kursen DV1486
 
 ## Installation
 
-1. Ladda ner repot till en webbserver med php >= 5.6
+ - Ladda ner repot till en webbserver med php >= 5.6
 
 ```
 https://github.com/Vesihiisi/dv1486-project.git
