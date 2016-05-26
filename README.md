@@ -6,10 +6,6 @@ Detta repo är mitt slutprojekt i kursen DV1486
 
  - Ladda ner repot till en webbserver med php >= 5.6
 
-```
-https://github.com/Vesihiisi/dv1486-project.git
-```
-
  - Projektet har några paket från 3e part som behov för att kunna fungera. Dessa finns att see i composer.json filen samt composer.lock som tillsammans ska ge dig all relevant information. För att uppdatera kör en uppdatering med composer
 
 ```
